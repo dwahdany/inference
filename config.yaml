@@ -1,0 +1,6 @@
+out_dir: "/raid/vit_proto/proper_v1/zeroshot_v1"
+dataset_name: "imagenet64"
+dataset_dir: "/raid/datasets/imagenet64"
+size_target: 256
+variants: ["vit_h_14", "vit_b_16"]
+devices: [3, 4]
